@@ -12,3 +12,24 @@ input {
     font-size: 1.3rem;
     with: 100%;
 }
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    align-content: center;
+    border: 1px solid grey;
+    border-radius:6px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+
+}
+
+.card img {
+    max-height: 170px;
+}
